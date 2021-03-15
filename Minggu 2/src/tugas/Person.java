@@ -1,11 +1,11 @@
 package tugas;
 
-public class person {
+public class Person {
     
     String name;
     int age;
     
-    public person(String name, int age) {
+    public Person(String name, int age) {
         this.name = name;
         this.age = age;
     }

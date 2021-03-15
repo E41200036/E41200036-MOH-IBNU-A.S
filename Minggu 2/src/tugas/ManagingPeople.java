@@ -4,9 +4,9 @@ public class ManagingPeople {
     
     public static void main(String[] args) {
         
-        person p1 = new person("Arial", 37);
+        Person p1 = new Person("Arial", 37);
         
-        person p2 = new person("Joseph", 15);
+        Person p2 = new Person("Joseph", 15);
         
         
         if(p1.getAge() == p2.getAge()) {
