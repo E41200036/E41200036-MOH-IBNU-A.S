@@ -3,18 +3,19 @@ package Tugas;
 import java.util.Scanner;
 
 public class b {
+
     public static void main(String[] args) {
         Scanner s = new Scanner(System.in);
         System.out.print("Masukan jumlah nilai untuk array random Number : ");
         int v = s.nextInt();
         int[] randomNumber = new int[v];
-        
+
         // input nilai
         for (int i = 0; i < v; i++) {
             System.out.print("nilai ke-" + i + " : ");
             randomNumber[i] = s.nextInt();
         }
-        
+
         // output nilai
         System.out.print("Nilai array : ");
         System.out.print(" [ ");

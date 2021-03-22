@@ -1,11 +1,11 @@
-
 package Tugas;
 
 import java.util.Scanner;
 
 public class d {
+
     public static void main(String[] args) {
-        
+
         Scanner s = new Scanner(System.in);
         System.out.println("-------------------------------------------------------------------------");
         System.out.println("                         IBNU MAJU JAYA (IMJ)");
@@ -22,25 +22,25 @@ public class d {
             barang[i] = s.nextInt();
             total = total + barang[i];
         }
-        
+
         System.out.println("Total harga pembelian atas nama " + nama + " adalah Rp. " + total);
-        
+
         // cek promo
         boolean promo = false;
         for (int i = 0; i < barang.length; i++) {
             promo = barang[i] >= 10000;
         }
-        
+
         if (promo == true) {
             System.out.println("Selamat...");
             System.out.println("Anda mendapat hadiah 1 buah piring cantik");
         } else {
             System.out.println("anda tidak mendapat promo");
         }
-        
+
         System.out.println("-------------------------------------------------------------------------");
         System.out.println("                             Terima Kasih");
         System.out.println("                 nda sudah berbelanja di IBNU MAJU JAYA");
-        
+
     }
 }

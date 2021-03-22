@@ -1,13 +1,13 @@
-
 package Latihan;
 
 import java.util.Scanner;
 
 public class ConditionalStatement {
+
     public static void main(String[] args) {
-        
+
         Scanner s = new Scanner(System.in);
-        
+
         System.out.println("program kalkulator \n --------------------------");
         System.out.print("Masukan nilai 1 : ");
         int n1 = s.nextInt();
@@ -22,24 +22,24 @@ public class ConditionalStatement {
         s.nextLine();
         String op = s.nextLine();
         double hasil;
-        if("+".equals(op)) {
+        if ("+".equals(op)) {
             hasil = n1 + n2;
             System.out.println("Hasil : " + hasil);
-        } else if("-".equals(op)) {
+        } else if ("-".equals(op)) {
             hasil = n1 - n2;
             System.out.println("Hasil : " + hasil);
-        } else if("*".equals(op)) {
+        } else if ("*".equals(op)) {
             hasil = n1 * n2;
             System.out.println("Hasil : " + hasil);
-        } else if("/".equals(op)) {
+        } else if ("/".equals(op)) {
             hasil = n1 / n2;
             System.out.println("Hasil : " + hasil);
-        } else if("%".equals(op)) {
+        } else if ("%".equals(op)) {
             hasil = n1 % n2;
             System.out.println("Hasil : " + hasil);
         } else {
             System.out.println("operator yang anda masukin tidak ada");
         }
-        
+
     }
 }

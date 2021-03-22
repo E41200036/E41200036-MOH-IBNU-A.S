@@ -43,7 +43,7 @@ public class e {
                 System.out.println("pilihan anda tidak ada di menu");
                 break;
         }
-        
+
         System.out.println("Minuman yang anda pilih : " + pilihan);
         System.out.println("Pesanan anda akan segera di antar");
         System.out.println("Terima Kasih " + nama + " telah berkunjung ke Kafe Ibnu anteng");

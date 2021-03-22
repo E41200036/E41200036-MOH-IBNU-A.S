@@ -1,20 +1,20 @@
-
 package Latihan;
 
 import java.util.Scanner;
 
 public class Switch {
+
     public static void main(String[] args) {
-        
+
         Scanner s = new Scanner(System.in);
-        
+
         System.out.print("masukan nim : ");
         String nim = s.nextLine();
-        
-        if(null == nim) {
+
+        if (null == nim) {
             System.out.println("nim yang anda masukan tidak ada");
         }
-        
+
         switch (nim) {
             case "E41200036":
                 System.out.println("NIM\t: E41200036");
