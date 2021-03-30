@@ -16,14 +16,19 @@ public class a {
             angka[i] = s.nextInt();
         }
 
-        Arrays.sort(angka);
+        System.out.print("[ ");
+        for (int i : angka) {
+            System.out.print(i + " ");
+        }
+        System.out.println("]");
 
+        Arrays.sort(angka);
+        System.out.println("Nilai setelah diurutkan dari yang terkecil - terbesar");
+        System.out.println("=====================================================");
         System.out.print("[ ");
         for (int i : angka) {
             System.out.print(i + " ");
         }
         System.out.print("]");
-
-
     }
 }

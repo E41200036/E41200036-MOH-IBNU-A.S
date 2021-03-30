@@ -6,6 +6,34 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch c",
+            "request": "launch",
+            "mainClass": "tugas.c",
+            "projectName": "Minggu 4_66f1b68c"
+        },
+        {
+            "type": "java",
+            "name": "Launch b",
+            "request": "launch",
+            "mainClass": "tugas.b",
+            "projectName": "Minggu 4_66f1b68c"
+        },
+        {
+            "type": "java",
+            "name": "Launch a",
+            "request": "launch",
+            "mainClass": "tugas.a",
+            "projectName": "Minggu 4_66f1b68c"
+        },
+        {
+            "type": "java",
+            "name": "Launch a",
+            "request": "launch",
+            "mainClass": "a",
+            "projectName": "Minggu 4_66f1b68c"
+        },
+        {
+            "type": "java",
             "name": "Launch l_doWhile",
             "request": "launch",
             "mainClass": "latihan.l_doWhile",
