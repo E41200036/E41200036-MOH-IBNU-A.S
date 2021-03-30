@@ -15,10 +15,11 @@ public class d {
         System.out.println("-------------------------------------------------------------------------");
         System.out.print("Masukan nama pembeli : ");
         String nama = s.nextLine();
+        
         int[] barang = new int[5];
         int total = 0;
         for (int i = 0; i < barang.length; i++) {
-            System.out.print("Masukan harga barang ke-" + (i + 1) + " : ");
+            System.out.print("Masukan harga barang ke-" + (i) + " : ");
             barang[i] = s.nextInt();
             total = total + barang[i];
         }
