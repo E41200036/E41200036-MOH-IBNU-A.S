@@ -5,18 +5,28 @@ public class b {
         System.out.println("Do While");
         System.out.println("Bilangan kelipatan 2 (1 - 100)");
         System.out.println("==============================");
-        int i = 1;
+        int i = 0;
         do {
-            System.out.print(i + " ");
+            if(i == 0) {
+                i = 1;
+            } else {
+                System.out.print(i + " ");
+            }
             i = i * 2;
         } while(i <= 100);
         System.out.println("");
         System.out.println("Bilangan [perkalian 2 (1 - 100)");
         System.out.println("==============================");
-        int j = 1;
+        int j = 0;
         do {
-            System.out.print(j * 2 + " ");
+            if(j == 0) {
+                j = 1;
+            } else {
+                System.out.print(j * 2 + " ");
+            }
             j++;
         } while(j <= 100);
+        
+        
     }
 }
