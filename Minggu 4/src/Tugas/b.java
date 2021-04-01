@@ -10,6 +10,13 @@ public class b {
             System.out.print(i + " ");
             i = i * 2;
         } while(i <= 100);
-
+        System.out.println("");
+        System.out.println("Bilangan [perkalian 2 (1 - 100)");
+        System.out.println("==============================");
+        int j = 1;
+        do {
+            System.out.print(j * 2 + " ");
+            j++;
+        } while(j <= 100);
     }
 }
