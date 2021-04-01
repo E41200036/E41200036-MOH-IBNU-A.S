@@ -3,7 +3,7 @@ package tugas;
 public class b {
     public static void main(String[] args) {
         System.out.println("Do While");
-        System.out.println("Bilangan kelipatan 2 (1 - 100)");
+        System.out.println("Bilangan kelipatan 2 (0 - 100)");
         System.out.println("==============================");
         int i = 0;
         do {
@@ -15,7 +15,7 @@ public class b {
             i = i * 2;
         } while(i <= 100);
         System.out.println("");
-        System.out.println("Bilangan [perkalian 2 (1 - 100)");
+        System.out.println("Bilangan [perkalian 2 (0 - 100)");
         System.out.println("==============================");
         int j = 0;
         do {
