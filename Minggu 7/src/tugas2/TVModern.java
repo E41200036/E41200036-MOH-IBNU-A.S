@@ -1,4 +1,4 @@
-package com;
+package tugas2;
 
 public class TVModern extends TV{
     

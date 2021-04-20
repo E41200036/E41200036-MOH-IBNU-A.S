@@ -1,5 +1,5 @@
 
-package com;
+package tugas2;
 
 public class TV {
     String deskripsi = "";
